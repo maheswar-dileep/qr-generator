@@ -21,6 +21,7 @@ const LinkShortener = () => {
         <h2>Link Shortener</h2>
         <div className="link-shortener-form">
           <input
+            autoComplete="off"
             type="text"
             name="url"
             className="link-shortener-input"
