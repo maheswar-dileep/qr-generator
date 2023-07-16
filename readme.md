@@ -52,4 +52,4 @@ Contributions to this project are welcome. If you encounter any issues or have s
 
 ## Tech's Used
 
-`React.js`  `Typescript`  `scss` `npm` `axios` `shrt code api` `qrcode.react` 
+`React.js`  `Typescript`  `scss` `npm` `axios` `shrt code api` `qrcode.react` `react-copy-to-clipboard`
