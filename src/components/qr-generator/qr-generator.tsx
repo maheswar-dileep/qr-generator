@@ -20,7 +20,13 @@ const QRGenerator = () => {
       <Navbar />
       <div className="qr-generator-container">
         <h2>QR Generator</h2>
-        <input type="text" name="link" className="qr-generator-input" onChange={(e) => setLink(e.target.value)} />
+        <input
+          autoComplete="off"
+          type="text"
+          name="link"
+          className="qr-generator-input"
+          onChange={(e) => setLink(e.target.value)}
+        />
         <div ref={qrCodeRef} className="qr-generator-qrcode">
           <QRCodeCanvas value={link} size={300} />
         </div>
